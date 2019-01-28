@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+    
+</head>
+
+<body> 
+
+
+    <h2>season2</h2>
+        <ul>
+          <div class="main_img">
+            <li>
+            <div class="col-sm-4">
+            <a href="guitargirl.html"><img class="img_vote" src= "<%=asset_path'music_guitarist_girl.png'%>" alt="기타걸"></a>
+                <p class="radio_text">guitar_girl</p>
+                <p class="radio_button"><input type="radio" name="Radio" id="guitar_girl_button" value="guitar_girl"></p>
+            </div>
+        </li>
+        <li>
+            <div class="col-sm-4">
+            <a href="schoolboy.html"><img class="img_vote" src= "<%=asset_path'happy_schoolboy.png'%>" alt="스쿨보이"></a>
+            <p class="radio_text">school_boy</p>
+                <p class="radio_button"><input type="radio" name="Radio" id="school_boy_button" value="school_boy"></p>
+              </div>
+            </li>
+            <li>
+              <div class="col-sm-4">
+            <a href="tsunderegirl.html"><img class="img_vote" src= "<%=asset_path'tsundere_girl.png'%>" alt="츤데레걸"></a>
+                <p class="radio_text">tsundere_girl</p>
+                <p class="radio_button"><input type="radio" name="Radio" id="tsundere_girl_button"  value="tsundere_girl"></p>
+              </div>
+            </li>
+        </div>
+
+        <li>
+        <div class="col-sm-4">
+        <a href="#"><img class="img_vote" src= "<%=asset_path'job_shitsuji.png'%>" alt="집사"></a>
+        <p class="radio_text">shitsuji</p>
+            <p class="radio_button"><input type="radio" name="Radio" id="shitsuji_button" value="shitsuji"></p>
+        </div>
+        </li>
+        <li>
+        <div class="col-sm-4">
+        <a href="#"><img class="img_vote" src= "<%=asset_path'job_depart_girl.png'%>" alt="승무원"></a>
+        <p class="radio_text">depart_girl</p>
+            <p class="radio_button"><input type="radio" name="Radio" id="depart_girl_button" value="depart_girl"></p>
+        </div>
+        </li>
+        <li>
+        <div class="col-sm-4">
+        <a href="#"><img class="img_vote" src= "<%=asset_path'mental_yandere_woman.png'%>" alt="얀데레녀"></a>
+        <p class="radio_text">yandere_woman</p>
+            <p class="radio_button"><input type="radio" name="Radio" id="yandere_woman_button" value="yandere_woman"></p>
+        </div>
+        </li>
+        
+    </ul>
+    
+    
+    <input type="submit" onclick="showConfirm();" class="btn btn-warning" value="決定">
+                <p id="complete_button"></p>
+                <script>
+            function showConfirm() {
+            if (confirm("本当にこの子でいいですか？")) {
+                alert("ありがとうございます！");
+            }
+            else {
+            }
+            }
+
+          </script>
+          <div>
+            <hr>
+                <div id="disqus_thread"></div>
+<script>
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://kiyarakuto.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </body>
+</html>
